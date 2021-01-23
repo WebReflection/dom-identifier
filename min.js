@@ -1,0 +1,1 @@
+self.domIdentifier=function(e){"use strict";var t=[].indexOf;return e.getNode=function(e,t){return e.reduceRight((function(e,t){return e.childNodes[t]}),t||document.documentElement)},e.getPath=function(e,n){for(var r,u=[];(r=e.parentElement)&&(u.push(t.call(r.childNodes,e)),(e=r)!=n););return u},e}({}).default;
