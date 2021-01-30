@@ -1,4 +1,6 @@
-const {document} = require('basichtml').init();
+const {document} = require('linkedom').parseHTML('');
+
+global.document = document;
 
 const {getNode, getPath} = require('../cjs');
 
